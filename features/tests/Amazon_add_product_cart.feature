@@ -1,6 +1,9 @@
-# Created by selvi at 6/7/2023
-Feature: # Enter feature name here
-  # Enter feature description here
+Feature: Test Scenarios for Amazon cart functionality
 
-  Scenario: # Enter scenario name here
-    # Enter steps here
+  Scenario: Verify number of items in a cart
+    Given Goto Amazon page
+    When enter the product coffee powder in the search field
+    And enter on search icon
+    Then choose your product
+    Then click add to cart icon
+    Then confirm that selected product in the cart

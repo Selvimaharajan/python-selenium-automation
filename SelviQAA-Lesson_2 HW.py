@@ -15,7 +15,7 @@ driver.maximize_window()
 # open the url
 driver.get('https://www.amazon.com/')
 
-git #mySignIn=driver.find_element(By.XPATH,"//span[@id='nav-link-accountList-nav-line-1']")
+mySignIn=driver.find_element(By.ID,'nav-link-accountList-nav-line-1')
 sleep(4)
 mySignIn.click()
 sleep(2)
