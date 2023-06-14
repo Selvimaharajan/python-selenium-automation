@@ -4,6 +4,7 @@ from selenium.webdriver.support.wait import WebDriverWait
 from webdriver_manager.chrome import ChromeDriverManager
 
 
+
 def browser_init(context):
     """
     :param context: Behave context
